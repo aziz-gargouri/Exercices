@@ -23,7 +23,7 @@ let findMaxLengthOfThreeWords=function (string1, string2, string3){
          min=string3.length
     }
 return min 
-  }
+}
 //4.Write a function called guessMyNumber that takes a number as a parameter and compares it to a random number between 0 and 5, and returns one of the following strings: 'You guessed my number!' if the number matches the random number. 'Nope! That wasn't it!' if the number did not match the random number. HINT: Look at these functions on MDN to learn how they work: Math.random, Math.floor and Math.ceil.
 let guessMyNumber=(number)=>{
     
@@ -31,6 +31,6 @@ let guessMyNumber=(number)=>{
     if (number===variable){
         return true
     }
-    else 
+  }
 
-}
+
