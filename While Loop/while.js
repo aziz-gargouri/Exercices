@@ -77,7 +77,14 @@ function multiplyBy10NTimes(num, n) {
 
 }
 //8.Write a function called countCharAtIndex that takes three parameters, a string, an index, and another string. This function should use the index to find the corresponding character in the first string and loop through the second string and count how many times that character occurs.
-
+let countCharAtIndex=(str1,index,str2)=>{
+    let result=0
+    let i =0
+    let char =str[index]
+    while(i<str2.length){
+        if (char === str2[i]) result++
+    }
+}
 
 //Didn't inderstand
 
@@ -104,11 +111,8 @@ function getIndexOf(string, char) {
             counter=counter+1
         }
         else{
-            res=counter
-            
+            res=counter   
         }
-
-
     }
     return res
 //FAAAAALSE
@@ -136,4 +140,5 @@ function primeCounter(number) {
 function getValidMove() {
     
 }
+
 
